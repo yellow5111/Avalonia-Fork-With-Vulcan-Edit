@@ -1,0 +1,11 @@
+<UserControl xmlns="https://github.com/avaloniaui" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" x:Class="ControlCatalog.Pages.ProgressBarPage">
+  <StackPanel Orientation="Vertical" Spacing="4">
+
+      <StackPanel Spacing="10">
+        <ProgressBar VerticalAlignment="Center" IsIndeterminate="True" />
+        <ProgressBar VerticalAlignment="Center" Value="5" Maximum="10" />
+        <ProgressBar VerticalAlignment="Center" Value="50" />
+        <ProgressBar VerticalAlignment="Center" Value="50" Minimum="25" Maximum="75" />
+      </StackPanel>
+    </StackPanel>
+</UserControl>
